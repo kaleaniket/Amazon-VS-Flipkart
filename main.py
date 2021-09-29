@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import lxml
 import smtplib
 
-MY_EMAIL = "akaledummy@gmail.com"
-PASSWORD = "93856162"
+MY_EMAIL = "YOUR EMAIL"
+PASSWORD = "PASSWORD"
 
-amazon_url = "https://www.amazon.in/Test-Exclusive_2020_1151-Multi-3GB-Storage/dp/B089MT35TK/ref=sr_1_1?dchild=1&keywords=redmi+note+10+pro&qid=1632120024&sr=8-1"
-flipkart_url = "https://www.flipkart.com/redmi-note-10-pro-dark-night-128-gb/p/itm04ba1f0aed358?pid=MOBGFDFXJEGBZVHJ&lid=LSTMOBGFDFXJEGBZVHJ5HURZ8&marketplace=FLIPKART&sattr[]=color&sattr[]=ram&st=color&otracker=search"
+amazon_url = "AMAZON PRODUCT URL"
+flipkart_url = "FLIPKART PRODUCT URL"
 
 fresponse = requests.get(flipkart_url)
 product_page = fresponse.text
